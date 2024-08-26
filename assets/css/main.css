@@ -1,13 +1,18 @@
-#main {
+#container {
   background-color: #333333;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+}
+
+#main {  
   color: #ffffff;
   text-align: center;
-  width: 100%;
-  height: 100%;
 }
 
 .ahlink {
-  text-decoration: underline;
+  text-decoration-color: #ffffff;
+  text-decoration-line: underline;
   color: red;
 }
 
