@@ -4,26 +4,35 @@
     <title>TankieTube</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png">
-    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+    <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
     <body>
-      <div id="container">
+      <div class="container">
         <div id="main">
-          <img id="sadkim" src="/assets/images/under-maintenance.webp"/>
-          <h1>
+          <img id="sadkim" src="./assets/images/under-maintenance.webp"/>
+          <h1 id="main-title">            
             TankieTube is temporarily down
+            <img class="meow" id="meow-ohnoes" src="./assets/images/meow-ohnoes.png"/>
           </h1>
-          <h3>
-            Our hosting provider is having ISP difficulties.
-          </h3>
-          <p>
-            They have
-            <a class="alink" href="https://status.freakhosting.com/en/" target=_blank >
-                this page
-            </a>
-            for checking the latest status. We're affected by the "Germany Outage".
-          </p>
+          <h2>
+            <span id="reason">Reason:</span> Our hosting provider (FreakHosting) is having ISP difficulties.
+            <img class="meow" id="meow-tableflip" src="./assets/images/meow-tableflip.png"/>
+          </h2>
+           <div id="main-article">
+            <p>
+              FreakHosting has created
+              <a class="alink" href="https://status.freakhosting.com/en/" target=_blank >this page</a>
+              for monitoring the latest status of their website and services. Our server is affected by the "Germany Outage" announcement near the top of the page.
+            </p>
+            <p>
+              If you would like to help us afford business-class servers with greater uptime, please consider
+              <a class="alink" target=_blank href="https://liberapay.com/TankieTube/donate">donating to TankieTube &#128150;</a>.&nbsp;
+              And 
+              <a class="alink" target=_blank href="mailto:TankieTanuki@tankie.tube">email</a>
+              me if you have any recommendations for a reliable hosting provider.
+            </p>
+          </div>
       </div>
     </div>
   </body>
