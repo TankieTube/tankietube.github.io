@@ -6,6 +6,11 @@
   height: 100%;
 }
 
+.ahlink {
+  text-decoration: underline;
+  color: red;
+}
+
 #sadkim {
   max-width: 100%;
 }
