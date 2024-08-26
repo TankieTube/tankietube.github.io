@@ -1,8 +1,11 @@
-body {
+#main {
   background-color: #333333;
+  color: #ffffff;
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
-#header {
-  color: white;
+#sadkim {
+  max-width: 100%;
 }
